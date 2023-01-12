@@ -1,11 +1,114 @@
 .App {
   text-align: center;
+  background-color: #61dafb;
+  /* margin-top: 0px;
+  padding-top: 0px; */
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
+.Card_App {
+  margin-top: 0;
+}
+.input{
+  margin: 20px;
+  width: 200px;
+  height: 50px;
+}
+
+.items{
+  display: inline;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  max-width: 140rem;
+  margin: auto;
+  padding: 3rem;
+}
+
+.show_all{
+  margin: 10px;
+  width: 200px;
+  height: 40px;
+  background: rgb(151, 195, 156);
+}
+
+.Entertainment{
+  margin: 10px;
+  width: 200px;
+  height: 40px;
+  background: rgb(151, 195, 156);
+
+}
+
+.Education{
+  margin: 10px;
+  width: 200px;
+  height: 40px;
+  background: rgb(151, 195, 156);
+}
+
+.Card_App{
+  text-align: center;
+  font-size: 40px;
+}
+
+/* .CardForm{
+  align-items: center;
+  background-color: white;
+} */
+
+/* .history_section {
+  max-width: 140rem;
+  margin: auto;
+  padding: 3rem;
+  display: grid;
+  gap: 3rem;
+  grid-template-columns: repeat(2, 1fr);
+} */
+
+.grid {
+  /* width: 100%; */
+  display: grid;
+  gap: 3rem;
+}
+
+.grid-4-col {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+
+/* 
+.main_div{
+  width: 100%;
+  background-color: aliceblue;
+  flex-direction: row;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  height: 200vh;
+} */
+/* 
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+} */
+/* 
+.form{
+    display: flex;
+} */
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
